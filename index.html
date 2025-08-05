@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nithish - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png"  width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Nithish Gadela">Nithish Gadela</h1>
+
+          
+          
+          <p class="title">Software development Engineer</p>
+          <p class="name"></p>
+          <p class="title">Full Stack Developer (MERN)</p>
+          
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title" href="mailto:nithishgadela11@gmail.com" >Email</p>
+
+              <a href="mailto:nithishgadela11@gmail.com" class="contact-link">nithishgadela11@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+13464041761" class="contact-link">+1 (346) 404-1761</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2001-04-11">April 11, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Houston, Texas, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+  
+
+          <li class="social-item">
+            <a href="https://twitter.com/GadelaNithish" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="http://instagram.com/nithish_gadela/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://flowcv.com/resume/ne4v87g6s1" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="document-text-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Skills</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Master’s student in Computer and Systems Engineering at the University of Houston with a strong passion for building intelligent, scalable software systems. My expertise lies in full stack web development using the MERN stack (MongoDB, Express.js, React, Node.js), where I have developed end-to-end applications with responsive user interfaces and efficient backend architectures. I am also experienced in machine learning and computer vision, having implemented YOLO for object detection and CNNs for image classification in real-world projects such as traffic sign detection and damage classification. Proficient in C++, Python, and both SQL and NoSQL databases, I have a strong grasp of data structures, algorithms, and software engineering best practices. In addition to my software background, I have hands-on experience with VLSI design, embedded systems, and hardware simulation tools, which allows me to approach problems with a cross-disciplinary mindset. I thrive in agile development environments, value clean and maintainable code, and enjoy solving complex problems that blend innovation with real-world impact.
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+          <h3 class="h3 service-title">Education</h3>
+          <ul class="service-list" style="display: flex; flex-direction: column; gap: 20px;">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.ico" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">University of Houston</h4>
+                <p class="service-item-text">
+                  Masters in Computer and Systems Engineering
+                </p>
+                <p class="service-item-text">
+                  GPA - 3.89/4.0          
+                </p>
+                <p class="service-item-text">
+                  2024 – present
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.ico" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">National Institute of Technology Kurukshetra</h4>
+                <p class="service-item-text">
+                  Bachelor of Engineering - Mechanical Engineering
+                </p>
+                <p class="service-item-text">
+                  GPA - 3.70/4.0 
+                </p>
+                <p class="service-item-text">
+                  2020 – 2024
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+
+
+        <section class="service">
+          <h3 class="h3 service-title">Experience</h3>
+          <ul class="service-list" style="display: flex; flex-direction: column; gap: 20px;">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.ico" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">National Institute of Technology, Kurukshetra </h4>
+                <p class="service-item-text">
+                  Placement Coordinator, Training and Placement Cell<br>Aug 2023 – May 2024
+                </p>
+                <br>
+                <p class="service-item-text">
+                  Liaised with leading companies to coordinate recruitment drives, managed placement data in Excel, and presented NIT
+Kurukshetra’s talent pool to industry partners to secure hiring opportuni:es for students.         
+                </p>
+                
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/avatar-10.png" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Indian Railways</h4>
+                <p class="service-item-text">
+                  Web Developer, Internship<br>Jan 2023 - May 2023
+                </p>
+                <br>
+                <p class="service-item-text">
+                  Developed a comprehensive and user-friendly website for Indian Railways, designed to provide detailed information on special trains, tourist attractions. The website is optimized for seamless use across all devices.         
+                </p>
+                
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/avatar-11.png" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">UH Energy Data Science Summer Cohort</h4>
+                <p class="service-item-text">
+                  National Science Foundation • Apprenticeship<br>May 2025 – Jun 2025
+                </p>
+                
+                <br>
+                <p class="service-item-text">
+                  Participated in an intensive 5-week program funded by the National Science Foundation (NSF), focused on geothermal energy and spatial analysis techniques. Gained hands-on experience in selecting appropriate statistical tests to derive actionable insights for the energy sector. The program provided valuable industry exposure and deepened my understanding of how data science can drive the transition to clean energy, equipping me to contribute meaningfully to the future of sustainable energy solutions. 
+                </p>
+                
+              </div>
+            </li>
+          </ul>
+        </section>
+            
+
+          </ul>
+
+        </section>
+
+
+       <!--
+          - testimonials
+        -->
+
+        
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        
+
+      </article>
+
+
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="skills">
+
+        <header>
+          <h2 class="h2 article-title">Skills</h2>
+        </header>
+
+        <section class="skill">
+
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">C++</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">R</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Structures & Algorithms (DSA)</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Object-Oriented
+                  Design (OOD)</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DBMS</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Computer Networks</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Convolutional Neural Networks (CNN)</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </li><li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">YOLO</h5>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 90%;"></div>
+            </div>
+
+          </li>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li><li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MongoDB</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Express.js</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React.js</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Node.js</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MS Excel</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MS Office</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">VLSI Design</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Verilog</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">VHDL</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SystemVerilog</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">LTSpice</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Cadence</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MATLAB</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SolidWorks</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 100%;"></div>
+              </div>
+
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ANSYS</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AutoCAD</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Engineering Drawings</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Computer Science</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Embeded Systems</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mechanical Engineering</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Computer Science</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Embeded Systems</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mechanical Engineering</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="computer science">
+              <a href="https://nithishgadela.github.io/IR/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Indian Railways Website</h3>
+
+                <p class="project-category">Explore the significance of India’s extensive railway network through our dynamic website, featuring real-time data on various trains in operation. The website provides interactivity, engaging users. It’
+                  s responsive, working on
+                  all devices.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer science">
+              <a href="https://nithishgadela.github.io/youtube/youtube.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">You Tube Clone</h3>
+
+                <p class="project-category">Creating the YouTube frontend project involves designing and implementing the user interface that emulates the
+                  popular video-sharing platform</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="mechanical engineering">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Design & Thermal Analysis of V12 Engine</h3>
+
+                <p class="project-category">Designed a balanced “V” layout with piston and valve optimization, simulated for performance validation.
+                  Explored the V12 engine
+                  ’
+                  s behavior with different piston sizes and conducted thermal analysis to examine heat
+                  flux and temperature distribution via simulation.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="embeded systems">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hypothetical ALU Design</h3>
+
+                <p class="project-category">Designed and simulated a 4-bit ALU with addition, subtraction, multiplication, and load operations using
+                  LTSpice and Cadence. Developed a 4-bit register, optimized adder and multiplier designs, and performed power
+                  and performance analysis in 180nm technology.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer science">
+              <a href="https://github.com/nithishgadela/Sudoko">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Sudoko</h3>
+
+                <p class="project-category">Developed a Sudoku solver in C++ utilizing recursion and backtracking algorithms for efficient puzzle solving.
+                 </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer science">
+              <a href="https://github.com/nithishgadela/Sudoko">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-11.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Traffic Sign Detection and Damage Classification using YOLO & CNN</h3>
+
+                <p class="project-category">Used YOLOv5 for traffic sign detection and a custom CNN to classify damage types (Healthy, Faded, Bent, Damaged, Vandalized). Built a pipeline for detection, classification, data preprocessing, training, visualization, and evaluation with a confusion matrix.
+                  </p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="computer science">
+              <a href="https://github.com/nithishgadela/Sudoko">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-10.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Hotel Room Booking System (MERN Stack)</h3>
+
+                <p class="project-category">Developed a full-stack web application using React, Node.js, Express, and MongoDB for browsing hotels, selecting room types, and booking stays. Implemented room availability tracking, date-wise booking, user authentication, an admin panel for room management, and a responsive, user-friendly interface.</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="embeded systems">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Impact of Cache Configuration on Performance</h3>
+
+                <p class="project-category">Simulated 100 million instructions using SimpleScalar and SPEC2000 to analyze the effects of cache size,
+                  associativity, and block size on IPC and cache miss rate across 9 benchmarks.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer science">
+              <a href="https://nithishgadela.github.io/rock_paper_scissor/09.rps.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Rock Paper Scissor
+                ﻿</h3>
+
+                <p class="project-category">Using HTML, CSS, and JavaScript to create an interactive Rock, Paper, Scissors game where players compete
+                against the computer.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="computer science">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Amazon Clone</h3>
+
+                <p class="project-category">Creating the Amazon frontend project involves designing and implementing the user interface that emulates the
+                  popular e-commerce platform.</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+      
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d886013.9242281056!2d-96.11923588808095!3d29.835655829273193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640b8b4488d8501%3A0xca0d02def365053b!2sHouston%2C%20TX!5e0!3m2!1sen!2sus!4v1747239728654!5m2!1sen!2sus" idth="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
